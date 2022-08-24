@@ -1,9 +1,10 @@
 buildscript {
     repositories {
-        mavenCentral()
+        maven { url "https://repo.maven.apache.org/maven2" } 
+// https://maven.minecraftforge.net/net/minecraftforge/gradle/ForgeGradle/1.2-SNAPSHOT/ForgeGradle-1.2-20211118.175523-305.pom
         maven {
             name = "forge"
-            url = "http://files.minecraftforge.net/maven"
+            url = "https://maven.minecraftforge.net"
         }
         maven {
             name = "sonatype"
